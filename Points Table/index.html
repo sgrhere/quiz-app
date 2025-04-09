@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Contest Points Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/log.png" alt="nlebs logo" class="logo">
+            <h1 class="title">Housewise Digital Quiz Competition</h1>
+            <h1 class="slogan">"Brains in Action, Victory in Sight!"  </h1>
+        </div>
+        <h1 style="font-size: 60px;  color: aqua;
+        -webkit-text-stroke: 0.5px black;
+        filter: drop-shadow(2px 2px 0 rgb(8, 6, 3));
+        font-weight: bolder; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 400; margin-top: 10px;">Points Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="top">Group</th>
+                    <th class="top">Points</th>
+                    <th class="top" >Add Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bold">Sayapatri</td>
+                    <td class="points bold" id="points1">0</td>
+                    <td><input type="number" class="inputPoints" id="input1"></td>
+                </tr>
+                <tr>
+                    <td class="bold">Godawari</td>
+                    <td class="points bold" id="points2">0</td>
+                    <td><input type="number" class="inputPoints" id="input2" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="bold">Sungava</td>
+                    <td class="points bold" id="points3">0</td>
+                    <td><input type="number" class="inputPoints" id="input3" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="bold">Laliguras</td>
+                    <td class="points bold" id="points4">0</td>
+                    <td><input type="number" class="inputPoints" id="input4" min="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="calculateBtn">Update Points</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

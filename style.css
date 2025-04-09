@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url(newl.jpg);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+
+.title{
+    font-size: 75px;
+    color: #ffffff;
+    background-color: #91000c;
+    filter: drop-shadow(2px 2px 0 orange);
+    font-weight: 400;
+    font-family: Impact;
+    margin: 0;
+}
+
+.slogan{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 255, 26);
+    background-color: black;
+    margin-top: 3px;
+}
+
+.select{
+    font-family: Impact;
+    width: 70vw;
+    height: 7vh;
+    color: aqua;
+    -webkit-text-stroke: 0.5px black;
+    filter: drop-shadow(2px 2px 0 rgb(8, 6, 3));
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: px;
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+}
+
+.box-container {
+    width: 80vw;
+    height: 60vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+.box {
+    width: 70vw;
+    height: 7vh;
+    background-color: #f4f4f4;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 6px;
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box:hover {
+    background-color: #91000c;
+    font-size: 35px;
+    color: white;
+}
